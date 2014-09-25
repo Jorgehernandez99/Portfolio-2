@@ -1,3 +1,7 @@
+body{
+	background-image: url("");
+        color: white;
+}
 div {
     border-style: solid;
     border-width: 5px;
