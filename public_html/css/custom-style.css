@@ -1,20 +1,26 @@
+ <!-- 
+ /* My Background Code */
+ -->
 body{
-	background-image: url("");
-        color: white;
+	background-image: url("http://automobilein.com/wp-content/uploads/2014/01/Chrome-Backgrounds.png");
+        color: black;
+        
 }
+/* Div Border Code */
 div {
     border-style: solid;
     border-width: 5px;
-    border-color: green;
+    border-color: gray;
     padding: 30px;
 }
-
+/* Container Boder Code */
 .container {
-    border-color: blue;
+    border-color: grey;
 }
-
+/* Row Border Code */
 .row {
-    border-color: red;
+    border-color: grey;
+    font-family: cursive;
 }
 
 .list-group-item {
@@ -22,3 +28,9 @@ div {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+p{
+    font-family: cursive;
+}
+
+
