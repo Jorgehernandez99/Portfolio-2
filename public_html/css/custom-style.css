@@ -2,24 +2,24 @@
  /* My Background Code */
  -->
 body{
-	background-image: url("http://automobilein.com/wp-content/uploads/2014/01/Chrome-Backgrounds.png");
-        color: black;
+	background-image: url("http://www.crazymonkeydefense.com/wp-content/uploads/2014/03/black-hd-background-background-wallpapers-abstract-photo-cool-black-background.jpg");
+        color: white;
         
 }
 /* Div Border Code */
 div {
     border-style: solid;
     border-width: 5px;
-    border-color: gray;
+    border-color: white;
     padding: 30px;
 }
 /* Container Boder Code */
 .container {
-    border-color: grey;
+    border-color: white;
 }
 /* Row Border Code */
 .row {
-    border-color: grey;
+    border-color: white;
     font-family: cursive;
 }
 
@@ -29,8 +29,15 @@ div {
     margin-bottom: 40px;
 }
 
+.jumbotron {
+    background-color: black;
+    color: white;
+}
+
 p{
     font-family: cursive;
 }
+
+
 
 
