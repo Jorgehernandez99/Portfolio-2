@@ -7,13 +7,13 @@
 
 $("document").ready(function(){
     
-   /*$('#oneButton').bind('click', alertButtonClick);
+   $('#oneButton').bind('click', alertButtonClick);
    $('#twoButton').bind('click', replaceWText);
    $('#threeButton').bind('click', replaceWHtml);
    $('#fourButton').bind('click', addAPara);
-   $('#fiveButton').bind('click', removeAPara);*/
+   $('#fiveButton').bind('click', removeAPara);
     
-   /*$(".hero").css("background-color", "yellow");
+   $(".hero").css("background-color", "yellow");
    $('p').css("color", "blue");
    
    $('#oneButton').bind('click', alertButtonClick);
@@ -33,12 +33,12 @@ $("document").ready(function(){
    
 });
 
-//$("h1").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
-//
-//$('h1').bind('click', mouseClick);
+("h1").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
+
+('h1').bind('click', mouseClick);
 
 
-/*function alertButtonClick() {
+function alertButtonClick() {
    alert("Milestone 3"); 
 }
 
@@ -76,4 +76,4 @@ function hideThePage() {
 
 function showThePage() {
     $('div').show('fold', {}, 2500);
-}*/
+}
