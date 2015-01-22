@@ -6,7 +6,7 @@
 
 
 $("document").ready(function(){
-    
+    /* Buttons that are added to onto my Jquery page that do different actions */
    $('#oneButton').bind('click', alertButtonClick);
    $('#twoButton').bind('click', replaceWText);
    $('#threeButton').bind('click', replaceWHtml);
@@ -16,12 +16,6 @@ $("document").ready(function(){
    $(".hero").css("background-color", "yellow");
    $('p').css("color", "blue");
    
-   $('#oneButton').bind('click', alertButtonClick);
-   $('#twoButton').bind('click', replaceWHtml);
-   $('#threeButton').bind('click', replaceWText);
-   $('#fourButton').bind('click', addAPara);
-   $('#fiveButton').bind('click', removeAPara);
-   
    $('#hide').bind('click', hideThePage);
    
    $('#show').bind('click', showThePage); 
@@ -29,14 +23,16 @@ $("document").ready(function(){
    $('#superHumans').accordion({header: "h4"});
    //$$('#superHumans').css('width', '400px');//
    
+   /* Changes the background color of the Jumbotron */
    $('h4').css('background', 'cyan');
    
 });
-
+/* Code that Binds the mouse to change the text when hovered over */
 ("h1").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
 
 ('h1').bind('click', mouseClick);
 
+/* Functions that adds what a certain code can do when called upon */
 
 function alertButtonClick() {
    alert("Milestone 3"); 
